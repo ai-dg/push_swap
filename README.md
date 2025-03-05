@@ -64,6 +64,12 @@ To sort a list of numbers:
 ```
 
 ▶️ Run push_swap with the checker
+
+Add the permissions:
+```sh
+chmod 755 ./checker_linux
+```
+
 To verify if the sorting sequence is correct:
 ```sh
 ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_linux $ARG
