@@ -23,8 +23,6 @@ The project was successfully validated with a **100% score**, meeting all the ev
 ## 📁 Files
 - `push_swap.h` → Contains function prototypes and required macros  
 - `push_swap.c` → Main function to handle input and call sorting operations  
-- `stack_operations.c` → Contains stack manipulation functions  
-- `sorting_algorithm.c` → Implements the sorting logic and optimization strategy  
 - `Makefile` → Automates compilation (`all`, `clean`, `fclean`, `re`, `bonus`)  
 
 ## ⚙️ Implemented Operations
