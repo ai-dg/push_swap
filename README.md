@@ -1,6 +1,6 @@
 # 🔄 push_swap - Sorting with the Fewest Moves
 
-<img src="https://github.com/user-attachments/assets/761c3749-3697-4597-a2f4-98f11191f97f" width="500">
+<img src="https://github.com/user-attachments/assets/c2f35a76-a08f-4da6-81ff-39f8e7fc7e83" width="500">
 
 ![Score](https://img.shields.io/badge/Score-100%25-brightgreen)  
 📌 **42 School - Algorithmic & Sorting Project**  
