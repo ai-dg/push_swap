@@ -76,7 +76,7 @@ ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_linux $ARG
 If the output is OK, the sorting is correct.
 If the output is KO, the sorting sequence is incorrect.
 
-### ▌ Benchmark Requirements
+### ■ Benchmark Requirements
 To validate this project, the sorting algorithm must perform within strict operation limits:
 
 - 100 numbers → ≤ 700 operations
