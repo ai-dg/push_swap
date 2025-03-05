@@ -1,32 +1,32 @@
-# 🔄 push_swap - Sorting with the Fewest Moves
+# push_swap - Sorting with the Fewest Moves
 
 <img src="https://github.com/user-attachments/assets/c2f35a76-a08f-4da6-81ff-39f8e7fc7e83" width="500">
 
 ![Score](https://img.shields.io/badge/Score-100%25-brightgreen)  
 📌 **42 School - Algorithmic & Sorting Project**  
 
-## 📝 Description
+## ▌ Description
 The **push_swap** project is about implementing an efficient sorting algorithm using a limited set of stack operations.  
 The objective is to **sort a stack of integers using the fewest possible moves**.
 
 This project helped develop skills in **algorithm design, data structures, and complexity optimization**.
 
-## 🔥 Key Features
-✅ **Implements an optimized sorting algorithm**  
-✅ **Calculates the number of moves for each operation and selects the most efficient one**  
-✅ **Uses a combination of stack operations (`sa`, `pb`, `ra`, `rr`, etc.)**  
-✅ **Handles edge cases like duplicates, invalid inputs, and sorted inputs efficiently**  
+## ▌ Key Features
+▸ **Implements an optimized sorting algorithm**  
+▸ **Calculates the number of moves for each operation and selects the most efficient one**  
+▸ **Uses a combination of stack operations (`sa`, `pb`, `ra`, `rr`, etc.)**  
+▸ **Handles edge cases like duplicates, invalid inputs, and sorted inputs efficiently**  
 
-## 🏆 Result: **100% Score**
+## ▌ Result: **100% Score**
 The project was successfully validated with a **100% score**, meeting all the evaluation benchmarks. 🎉
 
-## 📁 Files
+## ▌ Files
 - `push_swap.h` → Contains function prototypes and required macros  
 - `push_swap.c` → Main function to handle input and call sorting operations  
 - `Makefile` → Automates compilation (`all`, `clean`, `fclean`, `re`, `bonus`)  
 
-## ⚙️ Implemented Operations
-### 🔹 **Stack Operations**
+## ▌ Implemented Operations
+### ■ **Stack Operations**
 | Command | Description |
 |---------|-------------|
 | `sa` | Swap the first two elements of stack A |
@@ -41,7 +41,7 @@ The project was successfully validated with a **100% score**, meeting all the ev
 | `rrb` | Reverse rotate stack B (last element becomes first) |
 | `rrr` | Perform `rra` and `rrb` simultaneously |
 
-## 🏹 **Sorting Algorithm & Optimization**
+## ■ **Sorting Algorithm & Optimization**
 My **push_swap** implementation **calculates the number of moves needed for each operation and selects the best one** to **minimize the total number of operations**.
 
 The algorithm adapts based on the **size of the stack**:
@@ -49,19 +49,19 @@ The algorithm adapts based on the **size of the stack**:
 - **Medium sets (≤100 elements):** Implements an optimized **divide-and-conquer approach**.
 - **Large sets (500+ elements):** Uses an **advanced chunk-based sorting method** to reduce complexity.
 
-## 🚀 Compilation & Usage
-### 🛠 **Compile the Program**
+## ▌ Compilation & Usage
+### ■ **Compile the Program**
 ```sh
 make
 ```
 
-▶️ Run push_swap
+■ Run push_swap
 To sort a list of numbers:
 ```sh
 ./push_swap 4 67 3 87 23
 ```
 
-▶️ Run push_swap with the checker
+■ Run push_swap with the checker
 
 Add the permissions:
 ```sh
@@ -76,7 +76,7 @@ ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_linux $ARG
 If the output is OK, the sorting is correct.
 If the output is KO, the sorting sequence is incorrect.
 
-### 🏆 Benchmark Requirements
+### ▌ Benchmark Requirements
 To validate this project, the sorting algorithm must perform within strict operation limits:
 
 - 100 numbers → ≤ 700 operations
